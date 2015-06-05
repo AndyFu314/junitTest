@@ -3,4 +3,15 @@
   <groupId>com.udndigital.test1</groupId>
   <artifactId>test1</artifactId>
   <version>0.0.1-test</version>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>junit</groupId>
+  			<artifactId>junit</artifactId>
+  			<version>4.11</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
+
